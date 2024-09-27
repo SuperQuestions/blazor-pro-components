@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntDesign.ProLayout", "AntD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntDesign", "..\..\..\..\Tunynet.AntDesign\components\AntDesign.csproj", "{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tunynet", "..\tunynet\tunynet.csproj", "{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

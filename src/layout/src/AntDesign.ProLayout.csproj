@@ -25,10 +25,6 @@
     <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AntDesign" Version="1.0.0-rc.1" />
-  </ItemGroup>
-
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' And '$(SolutionDir)'==''">
     <SolutionDir>../../../</SolutionDir>
   </PropertyGroup>
@@ -51,6 +47,10 @@
   	<Exec WorkingDirectory="$(SolutionDir)" Command="npm install" />
   	<Exec WorkingDirectory="$(SolutionDir)" Command="npm run gulp:layout" />
   </Target>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Tunynet.AntDesign\components\AntDesign.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Update="**\*.razor">
