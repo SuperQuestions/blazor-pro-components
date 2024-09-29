@@ -8,11 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="AntDesign.Charts" Version="0.3.1" />
+    <PackageReference Include="AntDesign.ProLayout" Version="1.0.0-rc.1" />
     <PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\src\AntDesign.ProLayout.csproj" />
   </ItemGroup>
   
 </Project>
