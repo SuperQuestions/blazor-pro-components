@@ -49,7 +49,7 @@
   </Target>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Tunynet.AntDesign\components\AntDesign.csproj" />
+    <ProjectReference Include="..\..\..\..\ant-design-blazor\components\AntDesign.csproj" />
   </ItemGroup>
 
   <ItemGroup>
