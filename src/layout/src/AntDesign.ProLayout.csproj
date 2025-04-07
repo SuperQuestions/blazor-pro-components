@@ -50,7 +50,7 @@
   </Target>
   
   <ItemGroup>
-    <PackageReference Include="AntDesign" Version="1.0.0-beta4" />
+    <PackageReference Include="AntDesign" Version="1.0.0-beta5" />
   </ItemGroup>
 
   <ItemGroup>

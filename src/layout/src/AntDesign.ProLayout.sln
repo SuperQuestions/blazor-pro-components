@@ -5,9 +5,9 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntDesign.ProLayout", "AntDesign.ProLayout.csproj", "{FE2D07FA-784B-4632-9215-EBA263581AFE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntDesign", "..\..\..\..\Tunynet.AntDesign\components\AntDesign.csproj", "{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tunynet", "..\tunynet\tunynet.csproj", "{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tunynet", "..\tunynet\tunynet.csproj", "{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntDesign", "..\..\..\..\ant-design-blazor\components\AntDesign.csproj", "{08D40181-D531-4D88-972E-8DC892EB811F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{FE2D07FA-784B-4632-9215-EBA263581AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE2D07FA-784B-4632-9215-EBA263581AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE2D07FA-784B-4632-9215-EBA263581AFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C8EEB28-B180-482D-A435-D4F14D5A8C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B81D6EA-6A6B-4416-8AF1-5A16CE3D3AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D40181-D531-4D88-972E-8DC892EB811F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D40181-D531-4D88-972E-8DC892EB811F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D40181-D531-4D88-972E-8DC892EB811F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D40181-D531-4D88-972E-8DC892EB811F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
