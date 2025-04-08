@@ -1,10 +1,11 @@
 ﻿@inherits LayoutComponentBase
 
 <BasicLayout
-    Logo="@("https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg")"
+    Logo="@("logo.png")"
     MenuData="MenuData"
     Theme="MenuTheme.Light"
     MenuAccordion
+    BaseURL=""
     @bind-OpenKeys="openKeys"
     @bind-Collapsed="collapsed"
     @bind-SelectedKeys=selectedKeys>
@@ -22,7 +23,7 @@
             TItem="string"
             TItemValue="string"
             DefaultValue="@("product")"
-            Size="small"
+            Size="@InputSize.Small"
             Style="width: 100%;">
             <SelectOptions>
                 <SelectOption TItem="string" TItemValue="string" Value="@("product")" Label="Product" />

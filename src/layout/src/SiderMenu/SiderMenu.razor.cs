@@ -35,7 +35,7 @@ namespace AntDesign.ProLayout
         [Parameter] public EventCallback<bool> OnCollapse { get; set; }
         [Parameter] public string[] OpenKeys { get; set; } = [];
         [Parameter] public OneOf<string, RenderFragment> Logo { get; set; }
-        [Parameter] public string BaseURL { get; set; } = "/";
+        [Parameter] public string BaseURL { get; set; } = "";
         [Parameter] public int SiderWidth { get; set; } = 208;
         [Parameter] public BreakpointType Breakpoint { get; set; } = BreakpointType.Lg;
         [Parameter] public bool Hide { get; set; }
@@ -54,10 +54,10 @@ namespace AntDesign.ProLayout
         {
             get
             {
-                return NavTheme.Name switch
+                return NavTheme switch
                 {
-                    "light" => SiderTheme.Light,
-                    "dark" => SiderTheme.Dark,
+                    MenuTheme.Light => SiderTheme.Light,
+                    MenuTheme.Dark => SiderTheme.Dark,
                     _ => SiderTheme.Light
                 };
             }
